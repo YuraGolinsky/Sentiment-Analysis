@@ -128,6 +128,7 @@ and then click the Add to database button
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/45e5aeec-2415-4ef1-b9a8-90d3791bdaf5)
 
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/2e0e085c-e902-4be0-97ea-d1b1fe945167)
+
 To delete a publication, click the delete button
 Result
 
