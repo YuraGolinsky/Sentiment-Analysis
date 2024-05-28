@@ -130,7 +130,9 @@ and then click the Add to database button
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/2e0e085c-e902-4be0-97ea-d1b1fe945167)
 To delete a publication, click the delete button
 Result
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/a2b43012-ac8c-427f-b022-d676b02e49e8)
+
 The database form is able to change the color when adding the form
 Result
 
