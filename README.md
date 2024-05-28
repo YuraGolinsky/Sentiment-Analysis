@@ -32,15 +32,23 @@ ID публикации:
 ID пользователя:
 Новый текст:
 и затем нажмите кнопку Добавить в базу данных
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/45e5aeec-2415-4ef1-b9a8-90d3791bdaf5)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/2e0e085c-e902-4be0-97ea-d1b1fe945167)
+
 Удаление публикации текст нажимает кнопку удалить
 Результат
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/a2b43012-ac8c-427f-b022-d676b02e49e8)
+
 Форма базы данных умеет изменять цвета в добавление формы
 Результат
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/083ad2fa-3605-4b57-be76-90b11275b338)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/af5f97a8-0e2a-48b2-ae4f-081cc404e8c4)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/04637810-4c07-4845-ae46-a80361cc98ac)
 
 
@@ -49,8 +57,11 @@ ID пользователя:
 Что делает нашу страницу еще лучше? Возможность настройки фона формы и включения темной темы! Это помогает создать комфортную среду для работы в соответствии с вашим стилем.
 Присоединяйтесь к нам и узнайте больше о мире эмоционального анализа в текстах!
 как работает страница
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/e5425edc-fd35-4c7d-a8b1-86c60e46cfe2)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/a505b61e-457b-4564-8676-7a1bfad8b596)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/ccb29295-2c20-468d-ad81-e178ee66812c)
 
 
@@ -58,6 +69,7 @@ ID пользователя:
 И не забудьте о нашем помощнике! Он всегда готов помочь вам, показывая примеры текстов для анализа настроения. С его помощью вы можете лучше разобраться с функционалом нашей формы.
 
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/08defc17-27fc-4e11-be3f-6cc641a46c95)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/798a6c55-33c2-41d0-b4cd-d21268b8126e)
 
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/3943a74d-6621-421b-8d87-3e43a9e56f16)
@@ -112,15 +124,20 @@ Post ID:
 User ID:
 New text:
 and then click the Add to database button
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/45e5aeec-2415-4ef1-b9a8-90d3791bdaf5)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/2e0e085c-e902-4be0-97ea-d1b1fe945167)
 To delete a publication, click the delete button
 Result
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/a2b43012-ac8c-427f-b022-d676b02e49e8)
 The database form is able to change the color when adding the form
 Result
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/083ad2fa-3605-4b57-be76-90b11275b338)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/af5f97a8-0e2a-48b2-ae4f-081cc404e8c4)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/04637810-4c07-4845-ae46-a80361cc98ac)
 
 
@@ -129,15 +146,20 @@ Here you will find a powerful tool for mood analysis. Our form allows you to ent
 What makes our page even better? Ability to adjust the background of the form and turn on the dark theme! This helps to create a comfortable environment for work in accordance with your style.
 Join us and learn more about the world of emotional analysis in texts!
 How does the page work?
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/e5425edc-fd35-4c7d-a8b1-86c60e46cfe2)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/a505b61e-457b-4564-8676-7a1bfad8b596)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/ccb29295-2c20-468d-ad81-e178ee66812c)
+
 
 
 
 And don't forget about our assistant! He is always ready to help you by showing sample texts for mood analysis. With its help, you can better understand the functionality of our form.
 
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/08defc17-27fc-4e11-be3f-6cc641a46c95)
+
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/798a6c55-33c2-41d0-b4cd-d21268b8126e)
 
 ![image](https://github.com/YuraGolinsky/Sentiment-Analysis/assets/134283897/3943a74d-6621-421b-8d87-3e43a9e56f16)
