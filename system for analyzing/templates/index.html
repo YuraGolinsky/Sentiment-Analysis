@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <form id="sentiment-form" method="POST" enctype="multipart/form-data">
+            <textarea id="sentiment-text" name="text" placeholder="Enter text here..." required>{{ text }}</textarea>
+            <button type="submit">Analyze</button>
+            <input type="file" name="file">
+            <div class="suggestions">
+                <p>Ukrainian Texts:</p>
+                <div class="suggestion-buttons">
+                    {% for sentiment, texts in ukrainian_texts.items() %}
+                        <button type="button" class="suggestion-btn" onclick="addSuggestion('{{ texts[0] }}')">{{ sentiment }}</button>
+                    {% endfor %}
+                </div>
+                <p>English Texts:</p>
+                <div class="suggestion-buttons">
+                    {% for sentiment, texts in english_texts.items() %}
+                        <button type="button" class="suggestion-btn" onclick="addSuggestion('{{ texts[0] }}')">{{ sentiment }}</button>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="toggle-buttons">
+                    <a href="http://127.0.0.1:5000/fetch_db_texts" class="navigation-btn">Working with the database</a>
+                <button type="button" id="theme-toggle-btn">Toggle Theme</button>
+                <div class="color-buttons">
+                    <button type="button" class="color-btn yellow-btn" onclick="changeFormColor('#e6ad05')">Yellow</button>
+                    <button type="button" class="color-btn purple-btn" onclick="changeFormColor('#a90af2')">Purple</button>
+                    <button type="button" class="color-btn red-btn" onclick="changeFormColor('#f2500a')">Red</button>
+                    <button type="button" class="color-btn reset-btn" onclick="resetFormColor()">Reset</button>
+                </div>
+            </div>
+        </form>
+        {% if sentiment %}
+        <div class="result">
+            <h2>Analysis Result</h2>
+            <p><strong>Sentiment:</strong> {{ sentiment }}</p>
+            <p><strong>Scores:</strong> {{ scores }}</p>
+            <div class="image-container">
+                <img id="sentiment-image" src="{% if sentiment == 'Positive' %}{{ url_for('static', filename='positive.png') }}{% elif sentiment == 'Negative' %}{{ url_for('static', filename='negative.png') }}{% else %}{{ url_for('static', filename='neutral.png') }}{% endif %}" alt="Sentiment Image">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    <script>
+        function addSuggestion(text) {
+            document.getElementById('sentiment-text').value = text;
+        }
+
+        function toggleTheme() {
+            fetch('/toggle-theme')
+                .then(response => response.text())
+                .then(theme => {
+                    document.body.classList.toggle('dark-theme', theme === 'dark');
+                    document.body.classList.toggle('light-theme', theme === 'light');
+                    const themeToggleBtn = document.getElementById('theme-toggle-btn');
+                    themeToggleBtn.textContent = theme === 'dark' ? 'Light Theme' : 'Dark Theme';
+                });
+        }
+
+        function changeFormColor(color) {
+            document.querySelector('.container').style.backgroundColor = color;
+        }
+
+        function resetFormColor() {
+            document.querySelector('.container').style.backgroundColor = '#a3c5ff';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Toggle theme based on user preference
+            toggleTheme();
+
+            // Add event listener for theme toggle button
+            const themeToggleBtn = document.getElementById('theme-toggle-btn');
+            themeToggleBtn.addEventListener('click', function() {
+                toggleTheme();
+            });
+        });
+    </script>
+</body>
+</html>

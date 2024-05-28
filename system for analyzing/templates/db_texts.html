@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тексти з бази даних</title>
+    <link rel="stylesheet" href="/static/db_texts.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Тексти з бази даних</h1>
+
+        <!-- Кнопки для зміни кольору форми -->
+        <div class="color-buttons">
+            <button type="button" class="color-btn yellow-btn" onclick="changeFormColor('#e6ad05')">Yellow</button>
+            <button type="button" class="color-btn purple-btn" onclick="changeFormColor('#a90af2')">Purple</button>
+            <button type="button" class="color-btn red-btn" onclick="changeFormColor('#f2500a')">Red</button>
+            <button type="button" class="color-btn reset-btn" onclick="resetFormColor()">Reset</button>
+        </div>
+        <!-- Кнопка для зміни теми -->
+        <button type="button" class="theme-btn" onclick="toggleTheme()">Dark Theme</button>
+        <!-- Кнопка для переходу на іншу сторінку -->
+        <a href="http://127.0.0.1:5000/" class="navigation-btn">Sentiment Analysis - Form</a>
+
+        <!-- Форма для додавання тексту до бази даних -->
+        <form id="text-form" action="/add_db_text" method="POST">
+            <label for="publication_id">ID публікації:</label><br>
+            <input type="text" id="publication_id" name="publication_id" required><br>
+            <label for="user_id">ID користувача:</label><br>
+            <input type="text" id="user_id" name="user_id" required><br>
+            <label for="new_text">Новий текст:</label><br>
+            <textarea id="new_text" name="text" rows="4" cols="50" placeholder="Введіть текст сюди..." required></textarea><br>
+            <input type="submit" value="Додати до бази даних">
+        </form>
+
+        <!-- Таблиця з текстами з бази даних -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID публікації</th>
+                    <th>ID користувача</th>
+                    <th>Текст публікації</th>
+                    <th>Дата публікації</th>
+                    <th>Аналіз настрою</th>
+                    <th>Видалити</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for text in texts %}
+                <tr>
+                    <td>{{ text['ID публікації'] }}</td>
+                    <td>{{ text['ID користувача'] }}</td>
+                    <td>{{ text['Текст публікації'] }}</td>
+                    <td>{{ text['Дата публікації'] }}</td>
+                    <td>
+                        <!-- Відображення настрою тексту -->
+                        {{ text['Настрій'] }}
+                        <!-- Відображення фото настрою -->
+                        {% if text['Настрій'] == 'Positive' %}
+                            <img src="/static/positive.png" alt="Positive">
+                        {% elif text['Настрій'] == 'Neutral' %}
+                            <img src="/static/neutral.png" alt="Neutral">
+                        {% elif text['Настрій'] == 'Negative' %}
+                            <img src="/static/negative.png" alt="Negative">
+                        {% endif %}
+                    </td>
+                    <td>
+                        <form action="/delete_db_text/{{ text['ID публікації'] }}" method="POST" class="delete-form">
+                            <button type="submit" class="delete-button">Видалити</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <!-- Область для відображення результату аналізу -->
+        <div id="sentiment-result"></div>
+    </div>
+
+    <script>
+        function changeFormColor(color) {
+            document.getElementById('text-form').style.backgroundColor = color;
+        }
+
+        function resetFormColor() {
+            document.getElementById('text-form').style.backgroundColor = '';
+        }
+
+        function toggleTheme() {
+            const body = document.body;
+            const themeBtn = document.querySelector('.theme-btn');
+            if (body.classList.contains('dark-theme')) {
+                body.classList.remove('dark-theme');
+                themeBtn.innerText = 'Dark Theme';
+            } else {
+                body.classList.add('dark-theme');
+                themeBtn.innerText = 'Light Theme';
+            }
+        }
+
+        function analyzeSentiment(publicationId, text) {
+            fetch('/analyze_sentiment', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ publication_id: publicationId, text: text })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Відображення результату аналізу настрою
+                const sentimentResult = document.getElementById('sentiment-result');
+                sentimentResult.innerHTML = `Настрій тексту: ${data.sentiment}`;
+                if (data.sentiment === 'Positive') {
+                    sentimentResult.innerHTML += '<img src="/static/positive.png" alt="Positive">';
+                } else if (data.sentiment === 'Neutral') {
+                    sentimentResult.innerHTML += '<img src="/static/neutral.png" alt="Neutral">';
+                } else if (data.sentiment === 'Negative') {
+                    sentimentResult.innerHTML += '<img src="/static/negative.png" alt="Negative">';
+                }
+            })
+            .catch(error => console.error('Помилка:', error));
+        }
+    </script>
+</body>
+</html>

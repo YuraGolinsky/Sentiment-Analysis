@@ -1,0 +1,199 @@
+Text: Thank you for your excellent service. I appreciate your prompt assistance.
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.473, 'pos': 0.527, 'compound': 0.836}
+
+Text: The experience was average, with neither positive nor negative aspects standing out.
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: The experience was average, with neither positive nor negative aspects standing out.
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: The experience was average, with neither positive nor negative aspects standing out.
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: The experience was average, with neither positive nor negative aspects standing out.
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance.
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.473, 'pos': 0.527, 'compound': 0.836}
+
+Text: The experience was average, with neither positive nor negative aspects standing out.
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: The service was terrible. I'm highly disappointed.
+Sentiment: Negative
+Scores: {'neg': 0.565, 'neu': 0.435, 'pos': 0.0, 'compound': -0.7574}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance.
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.473, 'pos': 0.527, 'compound': 0.836}
+
+Text: The experience was average, with neither positive nor negative aspects standing out.
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: The service was terrible. I'm highly disappointed. 😞
+Sentiment: Negative
+Scores: {'neg': 0.622, 'neu': 0.378, 'pos': 0.0, 'compound': -0.8712}
+
+Text: "Сьогодні був поганий день 😞 Все пішло не так, як я сподівався. З самого ранку виникли проблеми на роботі 😫, а потім ще й автомобіль відмовив 🚗. Погода також була похмурою і дощовою 🌧, що погіршило настрій. Навіть вечеря в улюбленому ресторані не змогла мене розрадити 🍽. Сьогодні був справді важкий день 😔."
+Sentiment: Negative
+Scores: {'neg': 0.09, 'neu': 0.89, 'pos': 0.02, 'compound': -0.6908}
+
+Text: "Сьогодні був поганий день Все пішло не так, як я сподівався. З самого ранку виникли проблеми на роботі , а потім ще й автомобіль відмовив 🚗. Погода також була похмурою і дощовою 🌧, що погіршило настрій. Навіть вечеря в улюбленому ресторані не змогла мене розрадити 🍽. Сьогодні був справді важкий день 😔."
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.978, 'pos': 0.022, 'compound': 0.0772}
+
+Text: "Сьогодні був поганий день Все пішло не так, як я сподівався. З самого ранку виникли проблеми на роботі , а потім ще й автомобіль відмовив 🚗. Погода також була похмурою і дощовою 🌧, що погіршило настрій. Навіть вечеря в улюбленому ресторані не змогла мене розрадити 🍽. Сьогодні був справді важкий день ."
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: "Today was a bad day. Everything did not go as I hoped. From the very morning there were problems at work, and then the car also refused 🚗. The weather was also gloomy and rainy 🌧, which worsened the mood. Even dinner at my favorite restaurant could not help me comfort 🍽. Today was a really hard day."
+Sentiment: Negative
+Scores: {'neg': 0.257, 'neu': 0.672, 'pos': 0.071, 'compound': -0.8924}
+
+Text: "Today was a bad day. Everything did not go as I hoped. From the very morning there were problems at work, and then the car also refused 🚗. The weather was also gloomy and rainy 🌧, which worsened the mood. Even dinner at my favorite restaurant could not help me comfort 🍽. Today was a really hard day."
+Sentiment: Negative
+Scores: {'neg': 0.257, 'neu': 0.672, 'pos': 0.071, 'compound': -0.8924}
+
+Text: Сьогодні був поганий день Все пішло не так, як я сподівався. З самого ранку виникли проблеми на роботі , а потім ще й автомобіль відмовив 🚗. Погода також була похмурою і дощовою 🌧, що погіршило настрій. Навіть вечеря в улюбленому ресторані не змогла мене розрадити 🍽. Сьогодні був справді важкий день .
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: Today was a bad day. Nothing went as I hoped. Problems arose at work from the early morning, and then the car broke down. 🚗. The weather was also gloomy and rainy 🌧, which worsened the mood. Even dinner at my favorite restaurant couldn't cheer me up 🍽. Today was really a tough day.
+Sentiment: Negative
+Scores: {'neg': 0.257, 'neu': 0.668, 'pos': 0.075, 'compound': -0.8929}
+
+Text: Today was a bad day. Nothing went as I hoped. Problems arose at work from the early morning, and then the car broke down. 🚗. The weather was also gloomy and rainy 🌧, which worsened the mood. Even dinner at my favorite restaurant couldn't cheer me up 🍽. Today was really a tough day.
+Sentiment: Negative
+Scores: {'neg': 0.257, 'neu': 0.668, 'pos': 0.075, 'compound': -0.8929}
+
+Text: Сьогодні був поганий день Все пішло не так, як я сподівався. З самого ранку виникли проблеми на роботі , а потім ще й автомобіль відмовив.Погода також була похмурою і дощовою 🌧, що погіршило настрій. Навіть вечеря в улюбленому ресторані не змогла мене розрадити. Сьогодні був справді важкий день .
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 
+Sentiment: Negative
+Scores: {'neg': 0.351, 'neu': 0.649, 'pos': 0.0, 'compound': -0.66}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.473, 'pos': 0.527, 'compound': 0.836}
+
+Text: Сьогодні був поганий день Все пішло не так, як я сподівався. З самого ранку виникли проблеми на роботі , а потім ще й автомобіль відмовив.Погода також була похмурою і дощовою 🌧, що погіршило настрій. Навіть вечеря в улюбленому ресторані не змогла мене розрадити. Сьогодні був справді важкий день .
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення! Починалось все з невеличких пригод на роботі, але ми ж, знаєте, які ми незламні бойовики із суперсили, які здатні протистояти будь-яким труднощам! Автомобіль, здається, просто захотів трошки відпочити, але ми вміємо знайти найкращі варіанти, щоб вирішити ці невеличкі "перешкоди". І щодо погоди... Ось вона, наша можливість вдягти найстильнішу дощову куртку та показати, як ми круті навіть у дощову погоду! А вечеря в ресторані... Ой, вона просто стала найкращим уявним кінцем цього фантастичного дня!
+
+
+
+
+
+
+
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Ну, що ж, виявляється, сьогодні весь цей безлад можна описати одним словом – пригода! Починалось все з незручностей на роботі, а потім автомобіль вирішив піти на чай. А погода, взагалі, вирішила підкреслити наш настрій, поширивши навколо хмари й дощ. Що стосується вечері, то навіть улюблений ресторан не зміг розігріти наше засмучене серце. Але, звичайно, завдяки цим випробуванням, ми тепер точно знаємо, що завтра буде краще, бо навіть у найпоганіші дні ми знаходимо силу продовжувати рухатися вперед!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Досвід був середнім, і ні позитивних, ні негативних аспектів особливо не виділялися.
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Дякую за ваш чудовий сервіс. Я вдячний за вашу швидку допомогу.
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: Сьогодні був настільки епічно крутий день, що йому просто немає перевершення!
+Sentiment: Positive
+Scores: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
+Text: The experience was average, with neither positive nor negative aspects standing out. 😕
+Sentiment: Negative
+Scores: {'neg': 0.412, 'neu': 0.588, 'pos': 0.0, 'compound': -0.7719}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
+Text: Thank you for your excellent service. I appreciate your prompt assistance. 😊
+Sentiment: Neutral
+Scores: {'neg': 0.0, 'neu': 0.425, 'pos': 0.575, 'compound': 0.9313}
+
